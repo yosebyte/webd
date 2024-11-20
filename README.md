@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/yosebyte/webd)](https://goreportcard.com/report/github.com/yosebyte/webd)
+
 ## Feature
 
 - A WebDAV server written in Go, doing more works with a smaller size.
