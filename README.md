@@ -1,5 +1,3 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/yosebyte/webd)](https://goreportcard.com/report/github.com/yosebyte/webd)
-
 ## Feature
 
 - A WebDAV server written in Go, doing more works with a smaller size.
@@ -12,7 +10,7 @@
 
 - `hostname`: Domain name or IP address, `0.0.0.0` if left blank.
 
-- `port`: Any customizable port， except `80` if you use CDN.
+- `port`: Any customizable port，`80` if you use CDN.
 
 - `path`: Any customizable prefix path, `/` if left blank.
 
