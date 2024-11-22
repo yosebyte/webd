@@ -14,4 +14,4 @@
 
 - `path`: Any customizable prefix path, `/` if left blank.
 
-- `directory`: With which directory to share, `./` if leave blank.
+- `directory`: With which directory to share, `./` if left blank.
