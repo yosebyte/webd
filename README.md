@@ -1,8 +1,8 @@
 ## Feature
 
-- A WebDAV server written in Go, doing more works with a smaller size.
+- A WebDAV server written in Go, using 1-URL command to start.
 
-- Container image also provided at `ghcr.io/yosebyte/webd`, container size less than 6MB.
+- Container image also provided at `ghcr.io/yosebyte/webd`.
 
 ## Usage
 
@@ -10,7 +10,7 @@
 
 - `hostname`: Domain name or IP address, `0.0.0.0` if left blank.
 
-- `port`: Any customizable port, `80` if CDN applied.
+- `port`: Any customizable port, `80` if CDN is applied.
 
 - `path`: Any customizable prefix path, `/` if left blank.
 

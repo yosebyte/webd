@@ -2,7 +2,6 @@ version: 2
 
 before:
   hooks:
-    - go mod init webd
     - go mod tidy
 
 builds:
@@ -30,4 +29,3 @@ archives:
 
 release:
   prerelease: false
-  mode: replace
