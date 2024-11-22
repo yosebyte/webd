@@ -10,7 +10,7 @@
 
 - `hostname`: Domain name or IP address, `0.0.0.0` if left blank.
 
-- `port`: Any customizable port，`80` if you use CDN.
+- `port`: Any customizable port, `80` if you use CDN.
 
 - `path`: Any customizable prefix path, `/` if left blank.
 
