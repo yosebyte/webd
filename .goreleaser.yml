@@ -29,3 +29,4 @@ archives:
 
 release:
   prerelease: false
+  mode: replace
