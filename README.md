@@ -1,17 +1,23 @@
-## Feature
+![WEBD](https://img.shields.io/badge/Yosebyte-WEBD-blue)
+![GitHub License](https://img.shields.io/github/license/yosebyte/webd)
+[![Go Report Card](https://goreportcard.com/badge/github.com/yosebyte/webd)](https://goreportcard.com/report/github.com/yosebyte/webd)
+
+# WEBD
 
 - A WebDAV server written in Go, using 1-URL command to start.
-
 - Container image also provided at `ghcr.io/yosebyte/webd`.
 
 ## Usage
 
-- Basic usage with binary file: `./webd http://hostname:port/path#directory`
+```
+Usage:
+	webd http://<addr>/<pre>#<dir>
 
-- `hostname`: Domain name or IP address, `0.0.0.0` if left blank.
+Examples:
+	webd http://10.0.0.1:10101/secret/#/root
 
-- `port`: Any customizable port, `80` if CDN is applied.
-
-- `path`: Any customizable prefix path, `/` if left blank.
-
-- `directory`: With which directory to share, `./` if left blank.
+Arguments:
+	<addr>  Server ip:port to be exposed
+	<pre>   Optional prefix, default "/"
+	<dir>   Root directory, default "./"
+```
