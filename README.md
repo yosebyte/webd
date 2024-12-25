@@ -12,13 +12,13 @@
 
 ```
 Usage:
-	webd http://<addr>/<pre>#<dir>
+    webd http://<addr>/<pre>#<dir>
 
 Examples:
-	webd http://10.0.0.1:10101/secret/#/root
+    webd http://10.0.0.1:10101/secret/#/root
 
 Arguments:
-	<addr>  Server ip:port to be exposed
-	<pre>   Optional prefix, default "/"
-	<dir>   Root directory, default "./"
+    <addr>  Server ip:port to be exposed
+    <pre>   Optional prefix, default "/"
+    <dir>   Root directory, default "./"
 ```
