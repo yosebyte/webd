@@ -4,8 +4,9 @@
 
 # WEBD
 
-- A WebDAV server written in Go, using 1-URL command to start.
-- Container image also provided at `ghcr.io/yosebyte/webd`.
+- Simple webdav server from the Yosebyte Collections.
+- Written in Golang, using 1-URL command to start.
+- Container image provided at [ghcr.io/yosebyte/webd](https://ghcr.io/yosebyte/webd).
 
 ## Usage
 
