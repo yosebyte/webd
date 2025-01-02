@@ -64,15 +64,10 @@ func getExitInfo() {
 	logger.Info(`Version: %v %v/%v
 
 Usage:
-	webd http://<addr>/<pre>#<dir>
+    webd http://<server_addr>/<prefix>#<root_dir>?<log=level>
 
-Examples:
-	webd http://10.1.0.1:10101/secret/#/root
-
-Arguments:
-	<addr>  Server ip:port to be exposed
-	<pre>   Optional prefix, default "/"
-	<dir>   Root directory, default "./"
+Example:
+    webd http://10.1.0.1:10101/secret/#/root?log=debug
 `, version, runtime.GOOS, runtime.GOARCH)
 	os.Exit(1)
 }
