@@ -1,4 +1,4 @@
-github.com/yosebyte/x v1.0.0 h1:+AYBt47Wvvtu5lwrI2QIQhE2OrAA5i7nfrNX4iQ2pl0=
-github.com/yosebyte/x v1.0.0/go.mod h1:8je2s887b/2WmziCJulPNohwxEkqdvT/fJGIL7FOjzY=
+github.com/yosebyte/x v1.0.5 h1:LrWjX+QcPDOuLBbaBwEfHgORhYrA1+zL/sM1/V9U7Eo=
+github.com/yosebyte/x v1.0.5/go.mod h1:8je2s887b/2WmziCJulPNohwxEkqdvT/fJGIL7FOjzY=
 golang.org/x/net v0.33.0 h1:74SYHlV8BIgHIFC/LrYkOGIwL19eTYXQ5wc6TBuO36I=
 golang.org/x/net v0.33.0/go.mod h1:HXLR5J+9DxmrqMwG9qjGCxZ+zKXxBru04zlTvWlWuN4=
