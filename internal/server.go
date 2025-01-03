@@ -14,8 +14,9 @@ func NewServer(parsedURL *url.URL, logger *log.Logger) *http.Server {
 		FileSystem: webdav.Dir(parsedURL.Fragment),
 		LockSystem: webdav.NewMemLS(),
 		Logger: func(r *http.Request, err error) {
+			logger.Debug("%v: %v -> %v", r.Method, r.RemoteAddr, r.URL)
 			if err != nil {
-				logger.Warn("Internal: %v", err)
+				logger.Warn("%v", err)
 			}
 		},
 	}
