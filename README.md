@@ -11,7 +11,7 @@
 ## Usage
 
 ```
-webd http://<server_addr>/<prefix>#<root_dir>?<log=level>
+webd http://<server_addr>/<prefix>?<log=level>#<root_dir>
 
-webd http://10.1.0.1:10101/secret/#/root?log=debug
+webd http://10.1.0.1:10101/secret?log=debug#/root
 ```
