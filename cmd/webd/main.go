@@ -64,10 +64,14 @@ func getExitInfo() {
 	logger.Info(`Version: %v %v/%v
 
 Usage:
-    webd http://<server_addr>/<prefix>?<log=level>#<root_dir>
+    webd http://<username>:<password>@<server_addr>/<prefix>?<log=level>#<root_dir>
 
 Example:
-    webd http://10.1.0.1:10101/secret?log=debug#/root
+    # Run as http webdav server
+    webd http://qwer:1234@10.1.0.1:10101/secret?log=debug#/root
+
+    # Run as https webdav server
+    webd https://qwer:1234@10.1.0.1:10101/secret?log=warn#/root
 `, version, runtime.GOOS, runtime.GOARCH)
 	os.Exit(1)
 }
