@@ -33,7 +33,7 @@ func getParsedURL(args []string) *url.URL {
 	}
 	parsedURL, err := url.Parse(args[1])
 	if err != nil {
-		logger.Fatal("URL parse: %v", err)
+		logger.Fatal("Parse failed: %v", err)
 		getExitInfo()
 	}
 	return parsedURL
