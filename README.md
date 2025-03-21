@@ -4,7 +4,7 @@
 [![Go Version](https://img.shields.io/github/go-mod/go-version/yosebyte/webd)](https://golang.org/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/yosebyte/webd)](https://goreportcard.com/report/github.com/yosebyte/webd)
 
-WEBD is a lightweight, efficient WebDAV server designed for simplicity and security. Configured through a single URL command, it supports basic authentication, TLS encryption, and adjustable logging levels. Perfect for file sharing, remote development, and content management scenarios, WEBD offers a zero-configuration approach with its intuitive URL-style syntax, making it an ideal solution for developers and system administrators who need quick, secure WebDAV capabilities.
+Webd is a lightweight, efficient WebDAV server designed for simplicity and security. Configured through a single URL command, it supports basic authentication, TLS encryption, and adjustable logging levels. Perfect for file sharing, remote development, and content management scenarios, webd offers a zero-configuration approach with its intuitive URL-style syntax, making it an ideal solution for developers and system administrators who need quick, secure WebDAV capabilities.
 
 ## 📋 Table of Contents
 
@@ -71,7 +71,7 @@ go install ./cmd/webd
 
 ### 🐳 Option 4: Using Container Image
 
-WEBD is available as a container image:
+Webd is available as a container image:
 
 ```bash
 # Pull the container image
@@ -83,7 +83,7 @@ docker run -d --rm -p 10101:10101 -v /path/to/share:/data ghcr.io/yosebyte/webd 
 
 ## 🚀 Usage
 
-WEBD operates using a single, intuitive URL-style command:
+Webd operates using a single, intuitive URL-style command:
 
 ```bash
 webd http://<username>:<password>@<server_addr>/<prefix>?<log=level>#<root_dir>
@@ -97,7 +97,7 @@ webd http://<username>:<password>@<server_addr>/<prefix>?<log=level>#<root_dir>
 
 ## ⚙️ Configuration
 
-WEBD uses a minimalist approach with all configuration specified in the URL command:
+Webd uses a minimalist approach with all configuration specified in the URL command:
 
 ### 📝 Log Levels
 
@@ -136,7 +136,7 @@ This will:
 
 ## 🔍 How It Works
 
-WEBD creates a WebDAV server using the Go standard library and golang.org/x/net/webdav:
+Webd creates a WebDAV server using the Go standard library and golang.org/x/net/webdav:
 
 1. Parses the provided URL to extract configuration parameters
 2. Sets up authentication if username/password are provided
