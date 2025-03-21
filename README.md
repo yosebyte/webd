@@ -1,4 +1,4 @@
-# 🌐 Webd
+# 📂 Webd
 
 [![GitHub release](https://img.shields.io/github/v/release/yosebyte/webd)](https://github.com/yosebyte/webd/releases)
 [![Go Version](https://img.shields.io/github/go-mod/go-version/yosebyte/webd)](https://golang.org/)
