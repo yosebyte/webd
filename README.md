@@ -39,7 +39,7 @@ Webd is a lightweight, efficient WebDAV server designed for simplicity and secur
 
 ## 📋 Requirements
 
-- Go 1.23 or higher (for building from source)
+- Go 1.24 or higher (for building from source)
 - Network access for serving WebDAV content
 - Admin privileges may be required for binding to ports below 1024
 
