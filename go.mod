@@ -1,8 +1,8 @@
 module github.com/yosebyte/webd
 
-go 1.23.5
+go 1.24.1
 
 require (
-	github.com/yosebyte/x v1.0.9
-	golang.org/x/net v0.35.0
+	github.com/yosebyte/x v1.1.0
+	golang.org/x/net v0.37.0
 )
